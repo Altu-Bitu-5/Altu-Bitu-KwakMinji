@@ -37,10 +37,8 @@ int main() {
         cin >> serials[i];
     }
 
-    // 시리얼 번호 정렬
     sort(serials.begin(), serials.end(), compareSerial);
 
-    // 정렬된 결과 출력
     for (const string& serial : serials) {
         cout << serial << endl;
     }
